@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="1" name="SeLion Docker Grid Test"
+       skipfailedinvocationcounts="false" junit="false" parallel="classes"
+       data-provider-thread-count="1" annotations="JDK">
+
+  <!-- optional (defaults to firefox). Which browser will be used for web test -->
+  <parameter name="browser" value="*firefox"/>
+
+  <test name="SampleTest">
+    <classes>
+      <class name="com.mycompany.test.FirefoxBrowserTest"></class>
+      <class name="com.mycompany.test.ChromeBrowserTest"></class>
+    </classes>
+  </test>
+</suite>
