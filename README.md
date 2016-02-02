@@ -1,4 +1,4 @@
 # SeLionDockerTest
 
-This sample SeLion project demonstrates one example integration with launching a SeLion docker grid (using existing
-SeLion docker images) using maven for WebTest executions.
+This sample SeLion project demonstrates one integration with launching the SeLion docker grid (using
+SeLion docker images from Docker Registry) using maven docker plugin for WebTest executions.
