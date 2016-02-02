@@ -5,7 +5,7 @@
 This sample SeLion project demonstrates one integration with launching the SeLion docker grid (using
 SeLion docker images from Docker Registry) using maven docker plugin for WebTest executions.
 
-For more detail see:
+For more detail see the following:
 
  * http://selion.io
  * https://github.com/paypal/SeLion
